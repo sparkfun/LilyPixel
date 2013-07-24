@@ -1852,7 +1852,7 @@ CAP-00810</description>
 <text x="172.72" y="7.62" size="3.81" layer="94">M. HORD</text>
 <text x="81.28" y="111.76" size="5.08" layer="91">+</text>
 <text x="81.28" y="99.06" size="5.08" layer="91">-</text>
-<text x="237.998" y="6.858" size="3.81" layer="94">01</text>
+<text x="237.998" y="6.858" size="3.81" layer="94">10</text>
 <text x="154.94" y="111.76" size="3.81" layer="94">DI</text>
 <text x="154.94" y="101.6" size="3.81" layer="94">DO</text>
 <text x="5.08" y="2.54" size="1.778" layer="94">Original LilyPad design by

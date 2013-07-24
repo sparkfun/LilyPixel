@@ -32,6 +32,7 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -55,7 +56,6 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
@@ -162,9 +162,9 @@
 <text x="33.02" y="-33.02" size="1.778" layer="27" font="vector" ratio="15">M. HORD</text>
 <polygon width="0.2032" layer="29">
 <vertex x="-6" y="0"/>
-<vertex x="-11" y="0"/>
-<vertex x="-11" y="11"/>
-<vertex x="0" y="11"/>
+<vertex x="-10.111" y="0"/>
+<vertex x="-10.111" y="9.984"/>
+<vertex x="0" y="9.984"/>
 <vertex x="0" y="8.2"/>
 <vertex x="-1.4" y="7.9"/>
 <vertex x="-2.3" y="7.1"/>
@@ -179,9 +179,9 @@
 <vertex x="-6.6" y="0.4"/>
 </polygon>
 <polygon width="0.2032" layer="29">
-<vertex x="0" y="11"/>
-<vertex x="11" y="11"/>
-<vertex x="11" y="0"/>
+<vertex x="0" y="9.984"/>
+<vertex x="10.111" y="9.984"/>
+<vertex x="10.111" y="0"/>
 <vertex x="6" y="0"/>
 <vertex x="6.7" y="0.5"/>
 <vertex x="7.4" y="1.8"/>
@@ -197,9 +197,9 @@
 <vertex x="0" y="8.4"/>
 </polygon>
 <polygon width="0.2032" layer="29">
-<vertex x="11" y="0"/>
-<vertex x="11" y="-11"/>
-<vertex x="0" y="-11"/>
+<vertex x="10.111" y="0"/>
+<vertex x="10.111" y="-10.111"/>
+<vertex x="0" y="-10.111"/>
 <vertex x="0" y="-8.1"/>
 <vertex x="1.1" y="-8"/>
 <vertex x="2.1" y="-7.3"/>
@@ -214,9 +214,9 @@
 <vertex x="6.1" y="0"/>
 </polygon>
 <polygon width="0.2032" layer="29">
-<vertex x="0" y="-11"/>
-<vertex x="-11" y="-11"/>
-<vertex x="-11" y="0"/>
+<vertex x="0" y="-10.111"/>
+<vertex x="-10.111" y="-10.111"/>
+<vertex x="-10.111" y="0"/>
 <vertex x="-5.9" y="0"/>
 <vertex x="-6.9" y="-0.7"/>
 <vertex x="-7.4" y="-2"/>
@@ -233,9 +233,9 @@
 </polygon>
 <polygon width="0.2032" layer="41">
 <vertex x="-6" y="0"/>
-<vertex x="-11" y="0"/>
-<vertex x="-11" y="11"/>
-<vertex x="0" y="11"/>
+<vertex x="-10.111" y="0"/>
+<vertex x="-10.111" y="9.984"/>
+<vertex x="0" y="9.984"/>
 <vertex x="0" y="8.2"/>
 <vertex x="-1.4" y="7.9"/>
 <vertex x="-2.3" y="7.1"/>
@@ -250,9 +250,9 @@
 <vertex x="-6.6" y="0.4"/>
 </polygon>
 <polygon width="0.2032" layer="41">
-<vertex x="0" y="11"/>
-<vertex x="11" y="11"/>
-<vertex x="11" y="0"/>
+<vertex x="0" y="9.984"/>
+<vertex x="10.111" y="9.984"/>
+<vertex x="10.111" y="0"/>
 <vertex x="6" y="0"/>
 <vertex x="6.7" y="0.5"/>
 <vertex x="7.4" y="1.8"/>
@@ -268,9 +268,9 @@
 <vertex x="0" y="8.4"/>
 </polygon>
 <polygon width="0.2032" layer="41">
-<vertex x="11" y="0"/>
-<vertex x="11" y="-11"/>
-<vertex x="0" y="-11"/>
+<vertex x="10.111" y="0"/>
+<vertex x="10.111" y="-10.111"/>
+<vertex x="0" y="-10.111"/>
 <vertex x="0" y="-8.1"/>
 <vertex x="1.1" y="-8"/>
 <vertex x="2.1" y="-7.3"/>
@@ -285,9 +285,9 @@
 <vertex x="6.1" y="0"/>
 </polygon>
 <polygon width="0.2032" layer="41">
-<vertex x="0" y="-11"/>
-<vertex x="-11" y="-11"/>
-<vertex x="-11" y="0"/>
+<vertex x="0" y="-10.111"/>
+<vertex x="-10.111" y="-10.111"/>
+<vertex x="-10.111" y="0"/>
 <vertex x="-5.9" y="0"/>
 <vertex x="-6.9" y="-0.7"/>
 <vertex x="-7.4" y="-2"/>
@@ -304,9 +304,9 @@
 </polygon>
 <polygon width="0.2032" layer="42">
 <vertex x="-6" y="0"/>
-<vertex x="-11" y="0"/>
-<vertex x="-11" y="11"/>
-<vertex x="0" y="11"/>
+<vertex x="-10.111" y="0"/>
+<vertex x="-10.111" y="9.984"/>
+<vertex x="0" y="9.984"/>
 <vertex x="0" y="8.2"/>
 <vertex x="-1.4" y="7.9"/>
 <vertex x="-2.3" y="7.1"/>
@@ -321,9 +321,9 @@
 <vertex x="-6.6" y="0.4"/>
 </polygon>
 <polygon width="0.2032" layer="42">
-<vertex x="0" y="11"/>
-<vertex x="11" y="11"/>
-<vertex x="11" y="0"/>
+<vertex x="0" y="9.984"/>
+<vertex x="10.111" y="9.984"/>
+<vertex x="10.111" y="0"/>
 <vertex x="6" y="0"/>
 <vertex x="6.7" y="0.5"/>
 <vertex x="7.4" y="1.8"/>
@@ -339,9 +339,9 @@
 <vertex x="0" y="8.4"/>
 </polygon>
 <polygon width="0.2032" layer="42">
-<vertex x="11" y="0"/>
-<vertex x="11" y="-11"/>
-<vertex x="0" y="-11"/>
+<vertex x="10.111" y="0"/>
+<vertex x="10.111" y="-10.111"/>
+<vertex x="0" y="-10.111"/>
 <vertex x="0" y="-8.1"/>
 <vertex x="1.1" y="-8"/>
 <vertex x="2.1" y="-7.3"/>
@@ -356,9 +356,9 @@
 <vertex x="6.1" y="0"/>
 </polygon>
 <polygon width="0.2032" layer="42">
-<vertex x="0" y="-11"/>
-<vertex x="-11" y="-11"/>
-<vertex x="-11" y="0"/>
+<vertex x="0" y="-10.111"/>
+<vertex x="-10.111" y="-10.111"/>
+<vertex x="-10.111" y="0"/>
 <vertex x="-5.9" y="0"/>
 <vertex x="-6.9" y="-0.7"/>
 <vertex x="-7.4" y="-2"/>
@@ -377,7 +377,7 @@
 <text x="3.683" y="-2.921" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
 <text x="3.81" y="1.905" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
 <text x="-4.826" y="-2.667" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
-<text x="-9.271" y="-1.524" size="1.27" layer="16" font="vector" ratio="15" rot="MR90">v01</text>
+<text x="-9.271" y="-1.524" size="1.27" layer="16" font="vector" ratio="15" rot="MR90">v10</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
