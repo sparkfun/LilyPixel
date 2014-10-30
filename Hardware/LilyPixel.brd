@@ -394,11 +394,11 @@
 <vertex x="-1.2" y="-7.9"/>
 <vertex x="0" y="-8.2"/>
 </polygon>
-<text x="-5.207" y="1.778" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
-<text x="3.937" y="-1.397" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
-<text x="4.064" y="1.778" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
-<text x="-5.207" y="-1.524" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
-<text x="-9.271" y="-1.524" size="1.27" layer="16" font="vector" ratio="15" rot="MR90">v11</text>
+<text x="-4.826" y="2.413" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
+<text x="3.556" y="-2.159" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
+<text x="3.556" y="2.413" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
+<text x="-4.699" y="-2.159" size="0.8128" layer="21" font="vector" ratio="15">DI</text>
+<text x="4.318" y="3.683" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">v11</text>
 <text x="3.81" y="-25.4" size="1.778" layer="51" font="vector" ratio="10">Mike Hord</text>
 <text x="-15.24" y="-27.94" size="1.778" layer="51" font="vector" ratio="10">Revised by: Patrick Alberts</text>
 </plain>
@@ -776,8 +776,8 @@ design rules under a new name.</description>
 <element name="U$11" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="0" y="-7.62"/>
 <element name="U$12" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="6.731" y="-3.302" rot="R70"/>
 <element name="U$13" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="-6.477" y="3.937" rot="R235"/>
-<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-6.985" y="0.127" rot="R180">
-<attribute name="PROD_ID" value="CAP-00810" x="-6.985" y="0.127" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-4.445" y="0.381" rot="R90">
+<attribute name="PROD_ID" value="CAP-00810" x="-4.445" y="0.381" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="U$14" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="-6.35" y="-4.064" rot="R306"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="0" y="3.81" rot="MR0"/>
@@ -787,12 +787,12 @@ design rules under a new name.</description>
 <contactref element="U$13" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="WS2812B" pad="1"/>
-<wire x1="-6.477" y1="3.937" x2="-6.477" y2="3.54838125" width="0.254" layer="1"/>
-<wire x1="-6.477" y1="3.54838125" x2="-5.03681875" y2="2.1082" width="0.254" layer="1"/>
-<wire x1="-5.03681875" y1="2.1082" x2="-2.4502" y2="2.1082" width="0.254" layer="1"/>
 <wire x1="-2.4502" y1="2.1082" x2="-2.45" y2="2.108" width="0.254" layer="1"/>
-<wire x1="-6.135" y1="0.127" x2="-6.477" y2="0.469" width="0.254" layer="1"/>
-<wire x1="-6.477" y1="0.469" x2="-6.477" y2="3.937" width="0.254" layer="1"/>
+<wire x1="-2.4502" y1="2.1082" x2="-3.5052" y2="2.1082" width="0.254" layer="1"/>
+<wire x1="-3.5052" y1="2.1082" x2="-5.334" y2="3.937" width="0.254" layer="1"/>
+<wire x1="-5.334" y1="3.937" x2="-6.477" y2="3.937" width="0.254" layer="1"/>
+<wire x1="-6.477" y1="3.937" x2="-6.477" y2="1.563" width="0.254" layer="1"/>
+<wire x1="-6.477" y1="1.563" x2="-4.445" y2="-0.469" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.254" layer="16" isolate="0.3048" orphans="yes">
@@ -811,8 +811,6 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="WS2812B" pad="3"/>
 <contactref element="U$14" pad="1"/>
-<wire x1="-6.35" y1="-4.064" x2="-7.835" y2="-2.579" width="0.254" layer="1"/>
-<wire x1="-7.835" y1="-2.579" x2="-7.835" y2="0.127" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
 </signal>
@@ -837,12 +835,14 @@ design rules under a new name.</description>
 <contactref element="U$12" pad="1"/>
 <contactref element="U$11" pad="1"/>
 <contactref element="WS2812B" pad="2"/>
-<wire x1="0" y1="-7.62" x2="2.413" y2="-7.62" width="0.254" layer="1"/>
-<wire x1="2.413" y1="-7.62" x2="6.731" y2="-3.302" width="0.254" layer="1"/>
 <wire x1="0" y1="-7.62" x2="0" y2="-2.270759375" width="0.254" layer="1"/>
 <wire x1="0" y1="-2.270759375" x2="-1.178559375" y2="-1.0922" width="0.254" layer="1"/>
 <wire x1="-1.178559375" y1="-1.0922" x2="-2.4498" y2="-1.0922" width="0.254" layer="1"/>
 <wire x1="-2.4498" y1="-1.0922" x2="-2.45" y2="-1.092" width="0.254" layer="1"/>
+<wire x1="0" y1="-7.62" x2="1.27" y2="-6.35" width="0.254" layer="1"/>
+<wire x1="1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="1"/>
+<wire x1="1.27" y1="-5.08" x2="3.048" y2="-3.302" width="0.254" layer="1"/>
+<wire x1="3.048" y1="-3.302" x2="6.731" y2="-3.302" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
