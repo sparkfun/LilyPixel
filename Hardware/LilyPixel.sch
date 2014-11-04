@@ -144,8 +144,8 @@
 <symbols>
 <symbol name="GND">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="VCC2">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -1609,13 +1609,19 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="2.75" x2="-3.35" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="-3.35" y1="-2.75" x2="3.35" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="3.35" y1="-2.75" x2="3.35" y2="2.75" width="0.127" layer="21"/>
-<wire x1="3.35" y1="2.75" x2="-3.35" y2="2.75" width="0.127" layer="21"/>
-<circle x="-1.21" y="1.55" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.149040625" y="1.61858125" radius="0.125" width="0.25" layer="21"/>
 <text x="4" y="1.2" size="1.016" layer="25">&gt;NAME</text>
 <text x="4" y="-1.6" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="-2.50951875" y1="2.250440625" x2="-2.50951875" y2="2.504440625" width="0.127" layer="21"/>
+<wire x1="-2.50951875" y1="2.504440625" x2="-2.45871875" y2="2.504440625" width="0.127" layer="21"/>
+<wire x1="-2.45871875" y1="2.504440625" x2="-2.45871875" y2="2.499359375" width="0.127" layer="21"/>
+<wire x1="-2.45871875" y1="2.499359375" x2="2.491740625" y2="2.499359375" width="0.127" layer="21"/>
+<wire x1="2.491740625" y1="2.499359375" x2="2.491740625" y2="2.26821875" width="0.127" layer="21"/>
+<wire x1="-2.50951875" y1="-2.225040625" x2="-2.50951875" y2="-2.49681875" width="0.127" layer="21"/>
+<wire x1="-2.50951875" y1="-2.49681875" x2="-2.45871875" y2="-2.49681875" width="0.127" layer="21"/>
+<wire x1="-2.45871875" y1="-2.49681875" x2="-2.45871875" y2="-2.499359375" width="0.127" layer="21"/>
+<wire x1="-2.45871875" y1="-2.499359375" x2="2.50951875" y2="-2.499359375" width="0.127" layer="21"/>
+<wire x1="2.50951875" y1="-2.499359375" x2="2.50951875" y2="-2.2733" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5463,9 +5469,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbols>
 <devicesets>
 <deviceset name="0.1UF-25V(+80/-20%)(0603)" prefix="C" uservalue="yes">
-<description>Ceramic&lt;br&gt;
-Standard decoupling cap &lt;br&gt;
-CAP-00810</description>
+<description>CAP-00810&lt;br&gt;
+Ceramic&lt;br&gt;
+Standard decoupling cap</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
 </gates>
@@ -5526,6 +5532,7 @@ L. Buechley</text>
 <text x="78.74" y="106.68" size="5.08" layer="91">+</text>
 <text x="144.78" y="99.06" size="5.08" layer="91">-</text>
 <text x="148.59" y="7.62" size="2.54" layer="94">Revised by: Patrick Alberts</text>
+<text x="45.72" y="109.22" size="1.778" layer="97">VCC: 3.5v to 5.3v</text>
 </plain>
 <instances>
 <instance part="U$8" gate="G$1" x="236.22" y="17.78"/>
