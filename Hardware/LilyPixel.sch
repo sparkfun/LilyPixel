@@ -5506,15 +5506,15 @@ Standard decoupling cap</description>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$1" library="LilyPad-Wearables" deviceset="LOGO-LP" device="LP"/>
 <part name="WS2812B" library="SparkFun-LED" deviceset="WS2812B" device=""/>
-<part name="U$9" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="U$10" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="U$11" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="U$12" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP5" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP3" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="U$13" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP1" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$14" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="JP6" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -5528,8 +5528,8 @@ Standard decoupling cap</description>
 N. Seidle
 L. Buechley</text>
 <text x="142.24" y="109.22" size="3.81" layer="94">DI</text>
-<text x="83.82" y="104.14" size="3.81" layer="94" rot="R180">DO</text>
-<text x="78.74" y="106.68" size="5.08" layer="91">+</text>
+<text x="68.58" y="104.14" size="3.81" layer="94" rot="R180">DO</text>
+<text x="76.2" y="106.68" size="5.08" layer="91">+</text>
 <text x="144.78" y="99.06" size="5.08" layer="91">-</text>
 <text x="148.59" y="7.62" size="2.54" layer="94">Revised by: Patrick Alberts</text>
 <text x="45.72" y="109.22" size="1.778" layer="97">VCC: 3.5v to 5.3v</text>
@@ -5540,15 +5540,15 @@ L. Buechley</text>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$1" gate="G$1" x="236.22" y="17.78"/>
 <instance part="WS2812B" gate="G$1" x="106.68" y="104.14"/>
-<instance part="U$9" gate="G$1" x="139.7" y="111.76"/>
-<instance part="U$10" gate="G$1" x="139.7" y="109.22"/>
-<instance part="U$11" gate="G$1" x="86.36" y="101.6" rot="R180"/>
-<instance part="U$12" gate="G$1" x="86.36" y="104.14" rot="R180"/>
+<instance part="JP4" gate="G$1" x="86.36" y="109.22" rot="R180"/>
+<instance part="JP5" gate="G$1" x="139.7" y="109.22"/>
+<instance part="JP3" gate="G$1" x="139.7" y="101.6"/>
+<instance part="JP2" gate="G$1" x="86.36" y="104.14" rot="R180"/>
 <instance part="P+2" gate="1" x="96.52" y="114.3"/>
-<instance part="U$13" gate="G$1" x="86.36" y="109.22" rot="R180"/>
+<instance part="JP1" gate="G$1" x="86.36" y="101.6" rot="R180"/>
 <instance part="C2" gate="G$1" x="160.02" y="106.68"/>
 <instance part="GND2" gate="1" x="129.54" y="93.98"/>
-<instance part="U$14" gate="G$1" x="139.7" y="101.6"/>
+<instance part="JP6" gate="G$1" x="139.7" y="111.76"/>
 <instance part="P+3" gate="1" x="160.02" y="116.84"/>
 <instance part="GND3" gate="1" x="160.02" y="96.52"/>
 <instance part="LOGO1" gate="G$1" x="233.68" y="45.72"/>
@@ -5559,13 +5559,13 @@ L. Buechley</text>
 <net name="VCC" class="0">
 <segment>
 <wire x1="96.52" y1="109.22" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<junction x="96.52" y="109.22"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
 <wire x1="96.52" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
 <label x="88.9" y="109.22" size="1.778" layer="95"/>
-<pinref part="U$13" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="WS2812B" gate="G$1" pin="VDD"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
+<junction x="96.52" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -5584,33 +5584,33 @@ L. Buechley</text>
 <wire x1="124.46" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="101.6" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="129.54" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
 <junction x="129.54" y="101.6"/>
-<pinref part="U$14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DI1" class="0">
 <segment>
 <wire x1="129.54" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="111.76" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="1"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 <junction x="129.54" y="109.22"/>
 <pinref part="WS2812B" gate="G$1" pin="DIN"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO1" class="0">
 <segment>
 <wire x1="96.52" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="104.14" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="104.14" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="1"/>
+<pinref part="WS2812B" gate="G$1" pin="DOUT"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
 <junction x="96.52" y="101.6"/>
-<pinref part="WS2812B" gate="G$1" pin="DOUT"/>
 </segment>
 </net>
 </nets>
