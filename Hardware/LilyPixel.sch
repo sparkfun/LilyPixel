@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8127,8 +8127,8 @@ Standard decoupling cap</description>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8165,7 +8165,7 @@ L. Buechley</text>
 <instance part="GND3" gate="1" x="160.02" y="96.52"/>
 <instance part="LOGO1" gate="G$1" x="233.68" y="45.72"/>
 <instance part="LOGO2" gate="G$1" x="213.36" y="38.1"/>
-<instance part="FID1" gate="G$1" x="238.76" y="25.4"/>
+<instance part="FID1" gate="G$1" x="236.22" y="25.4"/>
 <instance part="FID2" gate="G$1" x="243.84" y="25.4"/>
 </instances>
 <busses>
