@@ -1,8 +1,9 @@
 LilyPad Pixel Board
 ===================
 
-[![LilyPad Pixel](https://cdn.sparkfun.com//assets/parts/1/0/4/7/0/13264-02.jpg)
-*LilyPad Pixel Board (DEV-13264)*](https://www.sparkfun.com/products/13264)
+![LilyPad Pixel](https://cdn.sparkfun.com//assets/parts/1/0/4/7/0/13264-02.jpg)
+
+[*LilyPad Pixel Board (DEV-13264)*](https://www.sparkfun.com/products/13264)
 
 This is a sewable single RGB LEDThe pixel board is equipped with a WS2812. This is an RGB LED with an WS2811 built right into the LED. 
 These can be chained together to form a display or an addressable string. 
